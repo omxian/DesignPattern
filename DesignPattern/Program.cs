@@ -11,7 +11,6 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //在此处new一个对应的模式
-            //new StrategyPattern();
             Console.ReadKey();
         }
     }
