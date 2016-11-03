@@ -64,6 +64,7 @@
     <Compile Include="ObserverPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonPattern.cs" />
     <Compile Include="StrategyPattern.cs" />
   </ItemGroup>
   <ItemGroup>

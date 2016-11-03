@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DesignPattern
+namespace DesignPattern.AbstractFactory
 {
-    class AbstractFactoryPattern
+    public class AbstractFactoryPattern
     {
         /*
             Abstract Factory Pattern(抽象工厂方法)

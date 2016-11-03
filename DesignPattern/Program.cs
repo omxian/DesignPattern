@@ -1,8 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DesignPattern.AbstractFactory;
+using DesignPattern.Decorate;
+using DesignPattern.FactoryMethod;
+using DesignPattern.Observer;
+using DesignPattern.Singleton;
+using DesignPattern.Strategy;
 
 namespace DesignPattern
 {
@@ -10,6 +12,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
+            new SingletonPattern();
             //在此处new一个对应的模式
             Console.ReadKey();
         }

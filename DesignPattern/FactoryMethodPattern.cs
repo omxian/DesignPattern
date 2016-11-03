@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.FactoryMethodPattern
+namespace DesignPattern.FactoryMethod
 {
     class FactoryMethodPattern
     {
