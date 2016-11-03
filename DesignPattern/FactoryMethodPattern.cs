@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern
+namespace DesignPattern.FactoryMethodPattern
 {
     class FactoryMethodPattern
     {
@@ -12,6 +12,8 @@ namespace DesignPattern
             Factory Method Pattern(工厂方法模式)
             定义了一个创建对象的接口，但由子类决定要实例化的类是哪一个。
             工厂方法把实例化推迟到子类。
+
+            通过子类来创建对象
 
             如果由新的一套实例化规则，可以简单的新建一个新的工厂。
             面向修改封闭，面向扩展开放。
