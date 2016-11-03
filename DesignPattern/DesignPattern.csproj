@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryPattern.cs" />
+    <Compile Include="CommandPattern.cs" />
     <Compile Include="DecoratePattern.cs" />
     <Compile Include="FactoryMethodPattern.cs" />
     <Compile Include="ObserverPattern.cs" />
