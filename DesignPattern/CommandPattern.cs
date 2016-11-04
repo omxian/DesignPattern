@@ -9,12 +9,12 @@ namespace DesignPattern.Command
     class CommandPattern
     {
         /*
-        Command Pattern（命令模式）
-        将“请求”封装成对象，以便使用不同的请求，
-        队列或者日志来参数化其它对象。命令模式也支持可撤销的操作。
+            Command Pattern（命令模式）
+            将“请求”封装成对象，以便使用不同的请求，
+            队列或者日志来参数化其它对象。命令模式也支持可撤销的操作。
 
-        命令模式是用命令模式实现的,
-        可以参考下StrategyPattern
+            命令模式是用命令模式实现的,
+            可以参考下StrategyPattern
          */
         public CommandPattern()
         {

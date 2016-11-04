@@ -5,12 +5,12 @@ namespace DesignPattern.Singleton
     class SingletonPattern
     {
         /*
-         Singleton Pattern(单件模式)
-         确保一个类只有一个实例，
-         并提供一个全局访问点。
+            Singleton Pattern(单件模式)
+            确保一个类只有一个实例，
+            并提供一个全局访问点。
 
-         游戏中的管理器（资源，配置，音频等）一般都会使用单件模式
-         在Unity中可以使用MonoSingleton(类似单件，但是需要挂在不销毁的对象上)
+            游戏中的管理器（资源，配置，音频等）一般都会使用单件模式
+            在Unity中可以使用MonoSingleton(类似单件，但是需要挂在不销毁的对象上)
          */
         public SingletonPattern()
         {
