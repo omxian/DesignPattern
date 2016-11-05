@@ -8,7 +8,7 @@ using DesignPattern.Strategy;
 using DesignPattern.Command;
 using DesignPattern.Adapter;
 using DesignPattern.Facade;
-
+using DesignPattern.TemplateMethod;
 namespace DesignPattern
 {
     class Program
@@ -16,7 +16,7 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //在此处new一个对应的模式
-            new FacadePattern();
+            new TemplateMethodPattern();
             Console.ReadKey();
         }
     }
