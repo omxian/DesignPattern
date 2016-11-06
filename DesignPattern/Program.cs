@@ -9,6 +9,8 @@ using DesignPattern.Command;
 using DesignPattern.Adapter;
 using DesignPattern.Facade;
 using DesignPattern.TemplateMethod;
+using DesignPattern.Iterator;
+
 namespace DesignPattern
 {
     class Program
@@ -16,7 +18,7 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //在此处new一个对应的模式
-            new TemplateMethodPattern();
+            new IteratorPattern();
             Console.ReadKey();
         }
     }

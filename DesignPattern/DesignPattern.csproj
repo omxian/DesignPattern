@@ -64,6 +64,7 @@
     <Compile Include="DecoratePattern.cs" />
     <Compile Include="FacadePattern.cs" />
     <Compile Include="FactoryMethodPattern.cs" />
+    <Compile Include="IteratorPattern.cs" />
     <Compile Include="ObserverPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
