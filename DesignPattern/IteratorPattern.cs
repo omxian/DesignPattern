@@ -19,7 +19,7 @@ namespace DesignPattern.Iterator
             Console.WriteLine(iterator.HasNext());
         }
     }
-
+    
     public class MenuIterator : Iterator
     {
         private int[] menuItemArr;
