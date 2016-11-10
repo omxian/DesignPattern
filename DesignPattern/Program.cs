@@ -11,6 +11,8 @@ using DesignPattern.Facade;
 using DesignPattern.TemplateMethod;
 using DesignPattern.Iterator;
 using DesignPattern.Composite;
+using DesignPattern.State;
+
 namespace DesignPattern
 {
     class Program
@@ -18,7 +20,7 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //在此处new一个对应的模式
-            new CompositePattern();
+            new StatePattern();
             Console.ReadKey();
         }
     }
