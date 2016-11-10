@@ -12,6 +12,7 @@ using DesignPattern.TemplateMethod;
 using DesignPattern.Iterator;
 using DesignPattern.Composite;
 using DesignPattern.State;
+using DesignPattern.Proxy;
 
 namespace DesignPattern
 {
@@ -20,7 +21,7 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //在此处new一个对应的模式
-            new StatePattern();
+            new ProxyPattern();
             Console.ReadKey();
         }
     }
