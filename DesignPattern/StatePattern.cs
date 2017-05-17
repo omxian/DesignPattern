@@ -71,10 +71,8 @@ namespace DesignPattern.State
 
     public class ActorIdleState : State
     {
-        private StateMachine machine;
-        public ActorIdleState(StateMachine machine)
+        public ActorIdleState(StateMachine machine): base(machine)
         {
-            this.machine = machine;
         }
         public override void Idle()
         {
@@ -84,10 +82,8 @@ namespace DesignPattern.State
 
     public class ActorRunBackState : State
     {
-        private StateMachine machine;
-        public ActorRunBackState(StateMachine machine)
+        public ActorRunBackState(StateMachine machine): base(machine)
         {
-            this.machine = machine;
         }
         public override void RunBack()
         {
@@ -97,10 +93,8 @@ namespace DesignPattern.State
     }
     public class ActorRunToEnemyState : State
     {
-        private StateMachine machine;
-        public ActorRunToEnemyState(StateMachine machine)
+        public ActorRunToEnemyState(StateMachine machine): base(machine)
         {
-            this.machine = machine;
         }
         public override void RunToEnemy()
         {
@@ -110,10 +104,8 @@ namespace DesignPattern.State
     }
     public class ActorAttackState : State
     {
-        private StateMachine machine;
-        public ActorAttackState(StateMachine machine)
+        public ActorAttackState(StateMachine machine): base(machine)
         {
-            this.machine = machine;
         }
         public override void Attack()
         {
@@ -124,6 +116,12 @@ namespace DesignPattern.State
 
     public abstract class State
     {
+        protected StateMachine machine;
+        public State(StateMachine machine)
+        {
+            this.machine = machine;
+        }
+
         public virtual void Idle()
         {
              throw new NotImplementedException();
