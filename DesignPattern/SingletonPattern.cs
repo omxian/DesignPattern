@@ -26,7 +26,7 @@ namespace DesignPattern.Singleton
         }
 
         private static Singleton instance;
-        private static object lockObject;
+        private static object lockObject = null;
         public static Singleton Instance
         {
             get
