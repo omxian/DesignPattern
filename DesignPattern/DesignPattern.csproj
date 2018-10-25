@@ -61,6 +61,7 @@
     <Compile Include="AbstractFactoryPattern.cs" />
     <Compile Include="AdapterPattern.cs" />
     <Compile Include="BridgePattern.cs" />
+    <Compile Include="BuilderPattern.cs" />
     <Compile Include="CommandPattern.cs" />
     <Compile Include="CompositePattern.cs" />
     <Compile Include="DecoratePattern.cs" />
